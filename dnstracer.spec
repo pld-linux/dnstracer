@@ -2,7 +2,7 @@ Summary:	dns tracer
 Summary(pl):	Program ¶ledz±cy zapytania DNS
 Name:		dnstracer
 Version:	1.7
-Release:	1
+Release:	2
 Group:		Applications/Networking
 License:	BSD-like
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
