@@ -33,6 +33,7 @@ operacji korzystaj±c z protoko³u NTP.
 %patch0 -p1
 
 %build
+cp -f /usr/share/automake/config.sub .
 rm -f missing
 %{__aclocal}
 %{__autoconf}
