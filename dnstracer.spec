@@ -6,6 +6,7 @@ Release:	1
 Group:		Applications/Networking
 License:	BSD-like
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
+# Source0-md5:	1820c54cdfbb436516bd2de49324f7d4
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
