@@ -5,9 +5,9 @@ Version:	1.6
 Release:	1
 Group:		Applications/Networking
 License:	BSD-like
-Source0:	http://www.mavetju.org/download/dnstracer-%{version}.tar.gz
-BuildRequires:  autoconf
-BuildRequires:  automake
+Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
