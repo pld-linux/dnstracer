@@ -1,13 +1,13 @@
 Summary:	dns tracer
 Summary(pl):	Program ¶ledz±cy zapytania DNS
 Name:		dnstracer
-Version:	1.7
-Release:	2
+Version:	1.8
+Release:	1
 Group:		Applications/Networking
 License:	BSD-like
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	fa965fdc0fc8f3e05a1d2877a548f564
-Patch0:		%{name}-automake.patch
+# Source0-md5:	f7e4102b572d052ca95567a08d9dde0a
+URL:		http://www.mavetju.org/unix/general.php
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,11 +30,11 @@ operacji korzystaj±c z protoko³u NTP.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
-cp -f /usr/share/automake/config.sub .
+cp -f %{_datadir}/automake/config.sub .
 rm -f missing
+rm -r autom4te.cache
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
