@@ -4,7 +4,7 @@ Name:		dnstracer
 Version:	1.6
 Release:	1
 Group:		Applications/Networking
-License:	BSD Style
+License:	BSD-like
 Source0:	http://www.mavetju.org/download/dnstracer-%{version}.tar.gz
 BuildRequires:  autoconf
 BuildRequires:  automake
@@ -19,15 +19,14 @@ Its behaviour is similair to ntptrace(8), which does it for the NTP
 protocol.
 
 %description -l pl
-Dnstracer rozpoznaje sk±d podane serwery DNS pobieraj± swoje informacje i
-pod±¿a za ³añcuchem serwerów DNS bezpo¶rednio do serwera który zawiera
-poszukiwane informacje.
+Dnstracer rozpoznaje sk±d podane serwery DNS pobieraj± swoje
+informacje i pod±¿a za ³añcuchem serwerów DNS bezpo¶rednio do serwera
+który zawiera poszukiwane informacje.
 
-Jego zachowanie jest podobne do ntptrace(8), który dokonuje podobnej operacji
-korzystaj±c z protoko³u NTP.
+Jego zachowanie jest podobne do ntptrace(8), który dokonuje podobnej
+operacji korzystaj±c z protoko³u NTP.
 
 %prep
-rm -rf %{buildroot}
 %setup -q
 
 %build
@@ -43,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
 %clean
-rm -rf %{buildroot}
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
