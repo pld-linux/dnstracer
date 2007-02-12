@@ -1,5 +1,5 @@
 Summary:	dns tracer
-Summary(pl.UTF-8):   Program śledzący zapytania DNS
+Summary(pl.UTF-8):	Program śledzący zapytania DNS
 Name:		dnstracer
 Version:	1.8
 Release:	1
