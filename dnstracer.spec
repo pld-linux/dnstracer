@@ -1,5 +1,5 @@
 Summary:	dns tracer
-Summary(pl):	Program ¶ledz±cy zapytania DNS
+Summary(pl.UTF-8):   Program Å›ledzÄ…cy zapytania DNS
 Name:		dnstracer
 Version:	1.8
 Release:	1
@@ -20,13 +20,13 @@ servers which know the data.
 Its behaviour is similair to ntptrace(8), which does it for the NTP
 protocol.
 
-%description -l pl
-Dnstracer rozpoznaje sk±d podane serwery DNS pobieraj± swoje
-informacje i pod±¿a za ³añcuchem serwerów DNS bezpo¶rednio do serwera
-który zawiera poszukiwane informacje.
+%description -l pl.UTF-8
+Dnstracer rozpoznaje skÄ…d podane serwery DNS pobierajÄ… swoje
+informacje i podÄ…Å¼a za Å‚aÅ„cuchem serwerÃ³w DNS bezpoÅ›rednio do serwera
+ktÃ³ry zawiera poszukiwane informacje.
 
-Jego zachowanie jest podobne do ntptrace(8), który dokonuje podobnej
-operacji korzystaj±c z protoko³u NTP.
+Jego zachowanie jest podobne do ntptrace(8), ktÃ³ry dokonuje podobnej
+operacji korzystajÄ…c z protokoÅ‚u NTP.
 
 %prep
 %setup -q
