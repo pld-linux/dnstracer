@@ -1,12 +1,12 @@
-Summary:	dns tracer
+Summary:	DNS query tracer
 Summary(pl.UTF-8):	Program śledzący zapytania DNS
 Name:		dnstracer
-Version:	1.8
+Version:	1.9
 Release:	1
 Group:		Applications/Networking
 License:	BSD-like
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	f7e4102b572d052ca95567a08d9dde0a
+# Source0-md5:	7db73ce3070119c98049a617fe52ea84
 URL:		http://www.mavetju.org/unix/general.php
 BuildRequires:	autoconf
 BuildRequires:	automake
