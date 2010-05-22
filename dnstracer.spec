@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Program śledzący zapytania DNS
 Name:		dnstracer
 Version:	1.9
 Release:	1
-Group:		Applications/Networking
+Group:		Networking/Utilities
 License:	BSD-like
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
 # Source0-md5:	7db73ce3070119c98049a617fe52ea84
